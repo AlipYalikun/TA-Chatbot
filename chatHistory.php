@@ -153,7 +153,7 @@ if (!$con) {
       <h4>Chat History</h4>
     </div>
     <div class="refreshButton"> 
-    <a href="javascript:void(0)" class="refreshB">
+    <a href="javascript:void(0)" class="refreshB" onClick="window.location.reload();">
       <i class="fa fa-refresh" aria-hidden="true"></i>
     </a>
     </div>
