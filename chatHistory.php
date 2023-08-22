@@ -138,7 +138,6 @@ if (!$con) {
     const rows = document.querySelectorAll(".clickableRow");
     rows.forEach(row => {
       row.addEventListener("click", () => {
-        // Add your logic here for what should happen when a row is clicked
         console.log("Row clicked:", row);
       });
     });
