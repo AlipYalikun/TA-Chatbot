@@ -120,17 +120,27 @@ if (!$con) {
       text-decoration: underline;
       color: royalblue;
   }
-  .signOutWrapper{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right:20px;
+  .bottomLinksWrappr {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    height:auto;
-    flex-direction: row;
     justify-content: space-between;
-    align-content: center; 
+    padding: 10px 30px;
     background-color: #f4f4f4;
+  }
+  .signOutWrapper, .goBackWrapper {
+    display: flex;
+    align-items: center;
+  }
+  .signOutWrapper a, .goBackWrapper a {
+    text-decoration: none;
+    color: #333;
+  }
+  .signOutWrapper a:hover, .goBackWrapper a:hover {
+    text-decoration: underline;
+    color: royalblue;
   }
 </style>
 <script>
@@ -195,11 +205,14 @@ if (!$con) {
       ?>
     </div>
   </div>
-  <div class="signOutWrapper">
-    <a href="javascript:void(0)" onclick="goBack()">Click to go back</a>
-    <div class="signOut">
+  <div class="bottomLinksWrappr">
+    <div class="signOutWrapper">
+      <a href="javascript:void(0)" onclick="goBack()">Click to go back</a>
+    </div>
+    <div class="goBackWrapper">
       <a href="http://localhost/chatbot/login.php">Sign out </a>
     </div>
   </div>
+  
 </body>
 </html>
