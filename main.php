@@ -277,6 +277,7 @@ if(!$con){
             event.preventDefault();
             window.location.href = "chatHistory.php";
     });
+    // new chat click
     document.getElementById("newChat").addEventListener("click", function(event) {
             event.preventDefault();
             // Make an AJAX request to newChatID.php to generate the unique ID
