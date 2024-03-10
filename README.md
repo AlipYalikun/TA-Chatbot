@@ -1,7 +1,7 @@
-# Project Introduction
+# Introduction
 Welcome to the functional chatbot interface developed for an independent research project led by Dr. Prashant Chandrasekar and Dr. Howard Haines at University of Mary Washington and Central Michigan University.
 
-## About the Project
+## About
 The chatbot serves as a versatile interface designed to enhance communication and streamline interactions related to Dr. Haines' student's capstone project for it to  capture their weekly report and see if the student need Dr. Haines help or not.
 
 ## How to use
